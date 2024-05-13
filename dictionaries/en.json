@@ -2,8 +2,8 @@
     "navbar": {
         "links": [
           { "name": "Main", "href": "#main"  },
-          { "name": "Features", "href": "#features"  },
           { "name": "Workflow", "href": "#workflow"  },
+          { "name": "Features", "href": "#features"  },
           { "name": "FAQS", "href": "#faqs"  }
         ],
         "buttonText": "Contact Us",
