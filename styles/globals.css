@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+    :root {
+      --border: 214.3 31.8% 91.4%;
+      --input: 214.3 31.8% 91.4%;
+      --ring: 222.2 84% 4.9%;
+
+      --radius: 0.5rem;
+
+      color-scheme:light;
+ 
+      /*  added from color generator  */
+
+      --bg-default: #fff;
+      --bg-base: #fcfcfc;
+      --bg-bg-subtle: #f8f8f8;
+      --bg-bg: #f3f3f3;
+      --bg-bg-hover: #ededed;
+      --bg-bg-active: #e8e8e8;
+      --fg-line: #e2e2e2;
+      --fg-border: #dbdbdb;
+      --fg-border-hover: #c7c7c7;
+      --fg-solid: #8f8f8f;
+      --fg-solid-hover: #858585;
+      --fg-text: #6f6f6f;
+      --fg-text-contrast: #171717;
+      --fg-default: #000;
+    
+    
+      --primary-base: #fafdfe;
+      --primary-bg-subtle: #f2fcfd;
+      --primary-bg: #e7f9fb;
+      --primary-bg-hover: #d8f3f6;
+      --primary-bg-active: #c4eaef;
+      --primary-line: #aadee6;
+      --primary-border: #84cdda;
+      --primary-border-hover: #3db9cf;
+      --primary-solid: #05a2c2;
+      --primary-solid-hover: #0894b3;
+      --primary-text: #0c7792;
+      --primary-text-contrast: #04313c;
+
+
+    }
+
+    :root.dark {
+      color-scheme:dark;
+
+      --border: 217.2 32.6% 17.5%;
+      --input: 217.2 32.6% 17.5%;
+      --ring: 212.7 26.8% 83.9%;
+
+
+
+
+      /*  added from color generator  */
+      --bg-default: #000;
+      --bg-base: #161616;
+      --bg-bg-subtle: #1c1c1c;
+      --bg-bg: #232323;
+      --bg-bg-hover: #282828;
+      --bg-bg-active: #2e2e2e;
+      --fg-line: #343434;
+      --fg-border: #3e3e3e;
+      --fg-border-hover: #505050;
+      --fg-solid: #707070;
+      --fg-solid-hover: #7e7e7e;
+      --fg-text: #a0a0a0;
+      --fg-text-contrast: #ededed;
+      --fg-default: #fff;
+    
+    
+      --primary-base: #07191d;
+      --primary-bg-subtle: #061e24;
+      --primary-bg: #072830;
+      --primary-bg-hover: #07303b;
+      --primary-bg-active: #073844;
+      --primary-line: #064150;
+      --primary-border: #045063;
+      --primary-border-hover: #00647d;
+      --primary-solid: #05a2c2;
+      --primary-solid-hover: #00b1cc;
+      --primary-text: #00c2d7;
+      --primary-text-contrast: #e1f8fa;
+
+  
+    }
+  
+
+
+                                                                /* my styles */
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  touch-action: manipulation;
+  font-feature-settings:
+    'case' 1,
+    'rlig' 1,
+    'calt' 0;
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 100%;
+  min-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  background-color: var(--bg-body);
+  
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.height-screen-helper {
+  min-height: calc(100vh - 80px);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.navbar-bg{
+  background: rgba(0, 0, 0, 0.32);
+  backdrop-filter: blur(12px);
+  }

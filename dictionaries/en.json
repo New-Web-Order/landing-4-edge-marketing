@@ -1,0 +1,116 @@
+{
+    "navbar": {
+        "links": [
+          { "name": "Main", "href": "#main"  },
+          { "name": "Features", "href": "#features"  },
+          { "name": "Workflow", "href": "#workflow"  },
+          { "name": "FAQS", "href": "#faqs"  }
+        ],
+        "buttonText": "Contact Us",
+        "buttonTextTwo": "Call Us 1900 123 654",
+        "logoText": "Edge Marketing "
+      },
+      "banner": {
+        "heading": "Unlock Your Potential with Our Marketing Solutions",
+        "subheading": "Empower your brand's journey with tailored strategies, creative campaigns, and measurable results.",
+        "buttonText": "Try it for free",
+        "subText": "Subscribe for exclusive insights, updates, and special offers to stay ahead in the competitive market."
+      },
+      "featureOne": {
+        "tag": "Main Feature",
+        "heading": "Discover Our Key Features for Marketing Success",
+        "buttonText": "Learn more",
+        "subText": "Explore our essential features crafted to enhance engagement, drive conversions, and effortlessly meet your business goals. "
+      },
+      "workFlow": {
+        "tag": "How it works",
+        "heading": "Simplify Your Marketing Workflow for Seamless Success.",
+        "buttonText": "Learn more",
+        "subheading1":"Short summary of step one",
+        "cardInfo": [
+          {
+            "title": "Strategy Planning:",
+            "description": "Craft tailored marketing plans aligned with your goals, audience, and industry trends to drive impactful campaigns.",
+            "number":"1"
+
+          },
+          {
+            "title": "Creative Design:",
+            "description": "Engage your audience with captivating visuals and compelling content tailored to your brand's unique identity and messaging.",
+            "number":"2"
+            
+          },
+          {
+            "title": "Implementation:",
+            "description": "Execute your marketing strategies flawlessly across multiple channels, ensuring consistent brand messaging and maximum reach.",
+            "number":"3"
+
+          },
+          {
+            "title": "Analysis & Optimization:",
+            "description": "Measure campaign performance, identify key insights, and refine your approach for continuous improvement and superior results.",
+            "number":"4"
+
+          }
+        ]
+        
+      },
+      "featureTwo": {
+        "tag": "Features",
+        "heading": "Streamline Your Marketing Efforts with Feature Highlights",
+        "buttonText": "Learn more",
+        "subText": "Discover how our intuitive tools and advanced analytics can optimize your marketing efforts, saving you time and maximizing your ROI."
+      },
+      "faqs": {
+        "heading": "Frequently asked questions",
+        "subText": "Frequently asked questions ordered by popularity. Remember that if the visitor has not committed to the call to action, they may still have questions (doubts) that can be answered.",
+        "cardInfo": [
+          {
+            "title": "Short summary of step one",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+          },
+          {
+            "title": "Short summary of step one",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."            
+          },
+          {
+            "title": "Short summary of step one",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+          },
+          {
+            "title": "Short summary of step one",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+          }
+        ],
+        "buttonText":"Contact Now",
+        "contactHeadding":"Still have questions?",
+        "contactSubHeading":"Reach out to us for expert assistance and support"
+        
+
+      },
+
+
+      "Footer": {
+        "1": "Features",
+        "2": "Testimonials",
+        "3": "Faqs",
+
+        "SocialMediaLinks": [
+          {"name": "instagram", "href": "https://www.instagram.com/newweborderltd/?igshid=NTc4MTIwNjQ2YQ%3D%3D"},
+          {"name": "twitter", "href": "https://twitter.com/New_Web_Order"},
+          {"name": "facebook", "href": "https://www.facebook.com/NewWebOrder1/"},
+          {"name": "linkedin", "href": "https://www.linkedin.com/company/newweborder"}
+        ],
+
+        "4": "Privacy Policy",
+        "5": "Terms of Service",
+        "6": "Cookies Settings"
+        
+ 
+        
+
+
+      }
+
+
+}

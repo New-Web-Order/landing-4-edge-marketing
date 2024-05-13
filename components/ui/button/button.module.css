@@ -1,0 +1,33 @@
+.root {
+  @apply inline-flex cursor-pointer items-center justify-center text-center font-medium text-sm rounded h-11 px-5 w-32 text-bg-base;
+}
+
+
+.root[data-shape="filled"] {
+  @apply bg-primary-text-contrast;
+}
+
+.root[data-shape="contact"] {
+  @apply bg-primary-text-contrast w-36;
+}
+.root[data-shape="contact"]:hover {
+  @apply bg-transparent border-2 border-primary-text-contrast text-primary-text-contrast font-semibold;
+
+}
+
+
+
+.root[data-shape="filled"]:hover {
+  @apply bg-transparent border-2 border-primary-text-contrast text-primary-text-contrast font-semibold;
+}
+
+
+/********** SURFACE **********/
+/* .root[data-shape="surface"] {
+  @apply border border-primary-300 text-bg-100 bg-transparent px-5 rounded-xl;
+}
+
+.root[data-shape="surface"]:hover {
+} */
+
+/********** FILLED **********/
