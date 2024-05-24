@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import NextImage from 'next/image';
-import Divider from '@/public/assets/icons/Divider.svg';
+import Divider from '@/public/assets/icons/divider.svg';
 // import data from '@/dictionaries/en.json';
 
 
